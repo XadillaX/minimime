@@ -1,0 +1,19 @@
+[package]
+name = "minimime"
+version = "1.0.0"
+edition = "2021"
+authors = ["i@233.dev"]
+description = "A minimal MIME type detection library for Rust, ported from the Ruby minimime gem"
+license = "MIT"
+repository = "https://github.com/XadillaX/minimime"
+homepage = "https://github.com/XadillaX/minimime"
+documentation = "https://docs.rs/minimime"
+readme = "README.md"
+keywords = ["mime", "file-type", "detection"]
+categories = ["parsing"]
+
+[lib]
+name = "minimime"
+crate-type = ["lib"]
+
+[dependencies]
